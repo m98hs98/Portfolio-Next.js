@@ -1,6 +1,8 @@
 import { useRef } from "react";
 import "./Prallax.scss";
 import { motion, useScroll, useTransform } from "framer-motion";
+import PropTypes from 'prop-types';
+
 
 
 const Parallax = ({ type }) => {
@@ -37,5 +39,10 @@ const Parallax = ({ type }) => {
         </div>
     );
 };
+
+Parallax.propTypes = {
+    type: PropTypes.string.isRequired,
+};
+  
 
 export default Parallax;
