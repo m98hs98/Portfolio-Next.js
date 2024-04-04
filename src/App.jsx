@@ -4,6 +4,7 @@ import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
+import Contact from "./components/contact/Contact";
 import Services from "./components/services/Services";
 
 
@@ -19,7 +20,7 @@ const App = () => {
       <section id=""><Services /></section>
       <section id="Portfolio"><Parallax type="portfolio" /></section>
       <Portfolio />
-      <section id="Contact">Contact</section> 
+      <section id="Contact"><Contact /></section> 
     </div> 
   );
 };
