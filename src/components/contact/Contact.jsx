@@ -49,7 +49,7 @@ const Contact = () => {
       
 
   return (
-    <motion.div ref={ref} className="contact" variants={variants} initial="initial" whileInView="animate">
+    <motion.div ref={ref} className="contact" id="Contact" variants={variants} initial="initial" whileInView="animate">
       <motion.div className="textContainer" variants={variants}>
         <motion.h1 variants={variants}>Let work together</motion.h1>
         <motion.div className="item" variants={variants}>

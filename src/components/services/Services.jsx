@@ -58,32 +58,23 @@ const Services = () => {
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
         <motion.div className="box" whileHover={{background: "lightgray", color: "black"}}>
-            <h2>Branding</h2>
+            <h2>Elevate Your Brand Identity</h2>
             <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+                We understand the power of a strong brand. Let us craft a unique identity that resonates with your audience and sets you apart from the competition.
             </p>
             <button>Go</button>
         </motion.div>
         <motion.div className="box" whileHover={{background: "lightgray", color: "black"}}>
-            <h2>Branding</h2>
+            <h2>Drive Growth Through Innovation</h2>
             <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+                Stagnant ideas lead to stagnant results. We will help you develop fresh, creative marketing strategies that propel your business forward and achieve lasting success.
             </p>
             <button>Go</button>
         </motion.div>
         <motion.div className="box" whileHover={{background: "lightgray", color: "black"}}>
-            <h2>Branding</h2>
+            <h2>Maximize Customer Engagement</h2>
             <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+                We believe in building meaningful connections with your customers. We will help you develop engaging content and experiences that convert them into loyal brand advocates.
             </p>
             <button>Go</button>
         </motion.div>

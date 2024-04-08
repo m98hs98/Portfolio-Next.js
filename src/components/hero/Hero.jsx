@@ -1,6 +1,8 @@
 import "./Hero.scss";
 import { motion } from "framer-motion";
 
+
+
 const textVariants = {
     initial: {
         x: -500,
@@ -39,6 +41,13 @@ const sliderVariants = {
 };
 
 const Hero = () => {
+
+    const scrollToContact = () => {
+        document.getElementById('Contact').scrollIntoView({ behavior: 'smooth' });
+        console.log("It works");
+    };
+
+
   return (
     <div className="hero">
         <div className="wrapper">
@@ -47,7 +56,7 @@ const Hero = () => {
                 <motion.h1 variants={textVariants}>Web Developer</motion.h1>
                 <motion.div variants={textVariants} className="buttons">
                     <motion.button variants={textVariants}>See the Latest Works</motion.button>
-                    <motion.button variants={textVariants}>Contact Me</motion.button>
+                    <motion.button onClick={scrollToContact} variants={textVariants}>Contact Me</motion.button>
                 </motion.div>
                 <motion.img variants={textVariants} animate="scrollButton" src="scroll.png" alt="" />
             </motion.div>
