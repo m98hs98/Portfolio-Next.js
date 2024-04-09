@@ -72,7 +72,7 @@ const Services = () => {
             <button>Go</button>
         </motion.div>
         <motion.div className="box" whileHover={{background: "lightgray", color: "black"}}>
-            <h2>Maximize Customer Engagement</h2>
+            <h2>Maximise Customer Engagement</h2>
             <p>
                 We believe in building meaningful connections with your customers. We will help you develop engaging content and experiences that convert them into loyal brand advocates.
             </p>
