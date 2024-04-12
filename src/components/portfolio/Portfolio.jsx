@@ -11,7 +11,7 @@ const items = [
         title: "Instagram Clone",
         img: "insta.png",
         description: "This project is a web application built with React, ChakraUI, and Firebase that allows users to share photos and interact with each other, similar to Instagram. Accessible from any device (desktop, tablet, phone), users can create accounts, personalize their profiles, upload photos and captions, and engage with real-time features like following, liking, and commenting.",
-        url: "https://musical-froyo-f424a6.netlify.app",
+        url: "https://main--musical-froyo-f424a6.netlify.app/auth",
     },
     {
         id: 2,
