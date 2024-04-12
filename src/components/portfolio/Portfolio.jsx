@@ -39,7 +39,7 @@ const items = [
         title: "Pig Game",
         img: "pigy2.png",
         description: "The code implements a Pig game using JavaScript. It handles initializing the game, rolling the dice, updating scores, switching players, holding scores, and resetting the game. The game involves rolling a dice, accumulating scores, and reaching a winning score of 20. It provides the necessary functionality for playing and managing the game.",
-        url: "https://remarkable-gingersnap-29121b.netlify.app",
+        url: "https://m98hs98.github.io/Pig-Game/",
     },
 ];
 
