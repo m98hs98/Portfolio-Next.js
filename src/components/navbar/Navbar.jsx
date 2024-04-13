@@ -17,10 +17,12 @@ const Navbar = () => {
             Mahsa Portfolio
         </motion.span>
         <div className="social">
-            <a href="#"><img src="/facebook.png" alt="" /></a>
-            <a href="#"><img src="/instagram.png" alt="" /></a>
-            <a href="#"><img src="/youtube.png" alt="" /></a>
-            <a href="#"><img src="/dribbble.png" alt="" /></a>
+          <a href="https://github.com/m98hs98"><img src="/github-2.png" alt="" /></a>
+          <a href="https://www.linkedin.com/in/mahsa-haddadi/"><img src="/linkedin.png" alt="" /></a>
+          {/* <a href="#"><img src="/facebook.png" alt="" /></a>
+          <a href="#"><img src="/instagram.png" alt="" /></a>
+          <a href="#"><img src="/youtube.png" alt="" /></a>
+          <a href="#"><img src="/dribbble.png" alt="" /></a> */}
         </div>
       </div>
     </div>
