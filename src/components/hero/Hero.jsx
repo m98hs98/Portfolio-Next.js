@@ -42,7 +42,8 @@ const sliderVariants = {
 
 const Hero = () => {
 
-    const scrollToContact = () => {
+    const scrollToContact = (e) => {
+        e.stopPropagation(); 
         document.getElementById('Contact').scrollIntoView({ behavior: 'smooth' });
         console.log("It works");
     };
