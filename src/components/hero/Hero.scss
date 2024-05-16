@@ -66,11 +66,12 @@
 
 
     .imageContainer {
-        width: calc(50% - (1066px / 2));
+        width: 30%;
         height: 100%;
         position: absolute;
         top: 0;
         right: 170px;
+       
         
 
         @include mobile {
