@@ -66,7 +66,7 @@ const Hero = () => {
             FrontEnd Developer Photographer
         </motion.div>
         <div className="imageContainer">
-            <img src="/hero.png" alt="" />
+            <img src="/public/hero.png" alt="" />
         </div>
     </div>
   );
